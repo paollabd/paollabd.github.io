@@ -2,31 +2,36 @@
 <html>
 <head>
 <meta charset=utf-8 />
-<title>Calculator</title>
+<title>DOM Practice</title>
+<link rel = "stylesheet" href = "style.css">
 </head>
 <body>
+  <h1>EMOJI COUNT</h1>
 
-  <div id = "first">
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <button onclick = "countFive()" id="percent-button">Calculate</button>
-  </div>
+    <div id = "first">
+      <p>🐶</p>
+      <p>🐱</p>
+      <p>🐹</p>
+      <p>🐞</p>
+      <p>👩</p>
+    </div>
+    <button onclick = "countFive()">Count</button>
+   
+    <div id = "second">
+      <p>🥐</p>
+      <p>🍞</p>
+      <p>🥖</p>
+      <p>🥨</p>
+      <p>🥞</p>
+      <p>🥓</p>
+    </div>
+    <button onclick = "countSix()">Count</button>
 
-  <div id = "second">
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <button onclick = "countFive2()" id="percent-button">Calculate</button>
-  </div>
-
-  <button onclick = "numCount()" id="percent-button">Calculate</button>
-
-
+  <br>
+ 
+  <button onclick = "numCount()">Total Count</button>
+ 
+ 
  <script src="script.js"></script>
 </body>
 </html>

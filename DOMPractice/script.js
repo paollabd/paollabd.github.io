@@ -4,7 +4,7 @@ function countFive(){
 	return count;	
 }
 
-function countFive2(){
+function countSix(){
 	var count = document.getElementById("second").getElementsByTagName("p").length;
 	console.log(count);
 	return count;	

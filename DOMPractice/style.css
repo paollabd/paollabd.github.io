@@ -1,0 +1,30 @@
+#parent{
+	display: flex;
+}
+
+#first{
+	display: flex;
+	justify-content: center;
+}
+
+#second{
+	display: flex;
+	justify-content: center;
+}
+
+
+h1{
+	font-family: "Verdana";
+	color: purple;
+}
+
+p{
+	font-size: 50pt;
+}
+
+button{
+	background-color: pink;
+	border: 10px;
+	margin-left: 50%;
+	margin-right: auto;
+}
