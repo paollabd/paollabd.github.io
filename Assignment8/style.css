@@ -1,0 +1,30 @@
+/*#dog{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: auto;
+}
+
+#bone{
+  display: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: auto;
+  width: 5%;
+}*/
+
+#dog{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: auto;
+}
+
+
+#bone{
+  width: 10%;
+  height: auto;
+}
