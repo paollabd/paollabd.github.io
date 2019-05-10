@@ -115,8 +115,10 @@ li a {
 
 .title {
 	box-shadow: 1px 2px lightgrey;
-	background-color: #E8A0AB;
-	font-size: 30px;
+	border: solid;
+	border-color: #E8A0AB;
+	background-color: white;
+	font-size: 26px;
 	width: 15%;
 	padding: 1%;
 	text-align: center;
@@ -130,8 +132,8 @@ li a {
 
 .description{
 	text-align: justify;
-	margin-left: 5px;
-	margin-right: 5px;
+	margin-left: 8px;
+	margin-right: 8px;
 }
 
 .logo img{
@@ -149,6 +151,16 @@ li a {
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#self{
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.description p{
+	margin-left: 100px;
+	margin-right: 100px;
 }
 
 .navigation p{
