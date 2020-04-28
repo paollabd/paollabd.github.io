@@ -1,5 +1,6 @@
 body{
 	font-family: Arial;
+	line-height: 2;
 }
 
 .nav-item{
@@ -156,6 +157,7 @@ li a {
 #self{
 	margin-left: 200px;
 	margin-right: 200px;
+	font-size: 12pt;
 }
 
 .description p{
@@ -279,6 +281,20 @@ li a {
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 
+.doc-wireframe img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.doc-storyboard img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
 .project-images{
 	margin-left: 100px;
 }
@@ -288,4 +304,20 @@ li a {
 	margin-right: 20px;
 	width: 400px;
 	height: auto;
+}
+
+.skills{
+	display: flex;
+	margin-right: 10px;
+}
+
+.skills li{
+	background-color: white;
+	border-style: solid;
+	border-color: lightgrey;
+	margin-right: 10px;
+	padding-bottom: 6px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 6px;
 }
