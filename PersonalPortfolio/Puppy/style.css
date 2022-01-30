@@ -1,0 +1,41 @@
+/*#dog{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: auto;
+}
+
+#bone{
+  display: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: auto;
+  width: 5%;
+}*/
+
+body{
+	background-color: lightpink;
+}
+h1{
+  	text-align: center;
+  	font-size: 42px;
+  	margin-top: 20px;
+  	color: purple;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#dog{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8%;
+  margin-bottom: auto;
+}
+
+
+#bone{
+  width: 150px;
+  height: auto;
+}
