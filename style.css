@@ -1,6 +1,36 @@
 body{
 	font-family: Arial;
 	line-height: 2;
+	background-color: #eee;
+}
+
+#button {
+  background-color: #ff6875;
+  border-radius: 5px;
+  color: black;
+  padding: 2%; 
+  text-decoration: none;
+}
+
+/*#links {
+  margin-left: 5%;
+}*/
+
+#intro {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #aaaaaa;
+  margin-left: 5%;
+  margin-right: 40%;
+  margin-top: 5%;
+  padding: 2%; 
+  /*margin-top: 5%;*/
+}
+
+#intro img {
+	width: 25pt;
+	height: 25pt;
+	margin-left: 2%;
 }
 
 .nav-item{
@@ -88,6 +118,7 @@ li a {
 .wrapper {
 	display: grid;
 	grid-template-columns: 20% 80%;
+	height: 100%;
 }
 
 .wrapper > div {
