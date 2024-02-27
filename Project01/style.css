@@ -97,6 +97,29 @@
       padding: 15px;
     }
 
+    .project-content a{
+      background-color: black;
+      border: 3px solid black;
+      border-radius: 5px;
+      color: white;
+      font-size: 10pt;
+      padding: 5px;
+    }
+
+    .project-content a:hover{
+      background-color: #333;
+      border: 3px solid #333;
+    }
+
+/*    .img_sqr{
+      margin-bottom: 10px;
+    }*/
+
+    .img_sqr img{
+      padding-top: 10px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+    }
 
 /*    .project-content img{
       width: 24%;
