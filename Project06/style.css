@@ -1,0 +1,124 @@
+    /* ... (styles remain unchanged) ... */
+
+    h1 a {
+      text-decoration: none;
+    }
+
+    h1 a:visited {
+      color: white;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.5;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+      color: #333;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .back{
+      text-align: left;
+    }
+
+    .back button{
+      background-color: black;
+      border: none;
+      border-radius: 50px;
+      font-size: 20px;
+      color: white;
+      cursor: pointer;
+    }
+
+    .back button:hover{
+      background-color: white;
+      color: black;
+    }
+
+    section {
+      max-width: 2000px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    h1 {
+      color: white;
+    }
+    h2, h3 {
+      color: #333;
+    }
+
+    .introduction {
+      margin: 20px;
+    }
+
+    .introduction img{
+      width: 15%;
+    }
+
+    .project-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 20px;
+    }
+
+    .project {
+/*      width: calc(50% - 10px);*/
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 15px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+/*    .project img {*/
+/*      width: 100%;*/
+/*      height: 200px;*/
+/*      object-fit: scale-down;*/
+/*      object-fit: cover;*/
+    }
+
+    .project-content {
+      padding: 15px;
+    }
+
+    .project-images{
+      display: flex; 
+      flex-direction: row; 
+      flex-wrap: wrap; 
+    }
+
+    .project-images object{
+      padding: 10px;
+    }
+
+
+/*    .project-content img{
+      width: 24%;
+    }*/
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    /* ... (styles remain unchanged) ... */
+

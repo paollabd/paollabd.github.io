@@ -1,0 +1,74 @@
+/*stylesheets do not require setup. You can just start typing CSS.*/
+
+/*CSS selector: refers to the tag you want to style*/
+
+.center {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 25%;
+}
+
+#headerbox { 
+	background-color: #9999ff;
+	/*#99ccff*/
+}
+
+#text {
+      	line-height: 2.0;
+ 		text-align: justify;
+ 		text-align-last: center;
+ 		margin-left: auto;
+  		margin-right: auto;
+ 		background: white;
+ 		width: 80%;
+}
+
+
+body {
+  /*background-color: lightpink;*/
+  background-image: url(pinkplad2.jpg);
+}
+
+h1{
+	color: white;
+	font-family: "Verdana";
+	text-align: center;
+}
+
+h2{
+	color: white;
+	font-family: "Verdana";
+	font-weight: bold;
+	text-align: center;
+}
+
+h3{
+	font-family: "Verdana";
+	color: indianred;
+	margin-left: 135px;
+}
+
+p {
+	margin-left: 30px;
+	margin-right: 30px;
+	font-family: "Verdana";
+}
+
+span{
+	text-decoration: underline;
+}
+
+
+
+/*edits: 
+all text-align: center;
+.center class
+#text id
+#headerbox id
+all margins
+white background
+aligning text to certer and justified at the same time
+span element
+*/
+

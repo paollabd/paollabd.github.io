@@ -1,0 +1,55 @@
+.navbar-brand{
+	background-color: #C70039;
+	padding: 10px;
+	margin-left: 98px;
+}
+
+.row{
+	/*background-color: #C70039;*/
+	/*background-color: #282B40;*/
+	background-color: #FFAC00;
+    padding: 20px 5px;
+    color: white;
+}
+
+.overlay{
+    position: absolute;
+    transition: all 0.1s ease;
+    opacity: 0;
+    background-color: #FFAC00;
+}
+
+.col:hover .overlay{
+    opacity: 1;
+}
+
+.overlayFade{
+    width: 80%;
+    height: 100%;
+    margin-left: 15px;
+    top: 0;
+    left: 0;
+}
+
+.col img{
+	width: 300px;
+	height: auto;
+	position: relative;
+}
+
+.text{
+    color: black;
+    font-family: "Courier New", Courier, monospace;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-family: bold;
+}
+
+.subtext{
+    font-size: 13px;
+    font-family: bold;
+}
